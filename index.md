@@ -56,7 +56,7 @@ Lyra AI is committed to protecting your privacy and ensuring the security of you
 
 Experience the future of AI-assisted learning with Lyra AI. Enable the skill on your Alexa device and start exploring a world of knowledge at your fingertips!
 
-[Call-to-Action Button: Enable Lyra AI on Your Alexa Device]
+[Start using Lyra today](https://skills-store.amazon.com/deeplink/tvt/377cb27f3c6bd6ffa926bbb18db5aa25e4b1d97af591e3c49838f2793bf2f722ddd5eb2bc21e85764fc469198f06597ae3e17a64979cbdcff1b8fa80a3e14b6b2a5b3fbfd313190a0e193c70443136514f0c74c4621ae694b81c8fbf4f3a13664593f0ec25bba5e2c1f64d821b0835f5)
 
 For support or more information, contact us at contact@nefum.com.
 
