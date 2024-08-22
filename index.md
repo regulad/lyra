@@ -1,5 +1,8 @@
 # Lyra AI: Advanced AI Assistant for Amazon Alexa
 
+[<img width="82" alt="Screenshot 2024-08-22 at 9 58 24 AM" src="https://github.com/user-attachments/assets/05d4f258-493a-4aaa-850c-fedbf11aa56b">](https://skills-store.amazon.com/deeplink/tvt/377cb27f3c6bd6ffa926bbb18db5aa25e4b1d97af591e3c49838f2793bf2f722ddd5eb2bc21e85764fc469198f06597ae3e17a64979cbdcff1b8fa80a3e14b6b2a5b3fbfd313190a0e193c70443136514f0c74c4621ae694b81c8fbf4f3a13664593f0ec25bba5e2c1f64d821b0835f5)
+
+
 ## Unlock the Power of AI with Your Voice
 
 Lyra AI transforms your Alexa device into an intelligent assistant, capable of answering a vast array of questions on various topics. Powered by advanced artificial intelligence, Lyra AI provides quick, accurate, and insightful responses to your queries, all through simple voice commands.
