@@ -1,0 +1,97 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Lyra AI: Unlock Alexa\u0027s full potential: ask any question and get AI powered answers",
+          "examplePhrases": [
+            "Alexa, open Lyra a. i.",
+            "Alexa, ask Lyra a. i. to look up how many horses were in the twenty twenty four Olympics.",
+            "Alexa, ask Lyra a. i. to look up when Taylor Swift\u0027s next tour is."
+          ],
+          "keywords": [
+            "AI",
+            "ChatGPT",
+            "OpenAI",
+            "Claude",
+            "Anthropic",
+            "trivia",
+            "facts",
+            "assistant",
+            "query",
+            "research",
+            "encyclopedia",
+            "knowledge",
+            "current",
+            "events",
+            "history",
+            "science",
+            "technology",
+            "companion"
+          ],
+          "name": "Lyra AI",
+          "description": "Lyra AI enhances your Alexa device with advanced artificial intelligence, transforming it into a knowledgeable companion\nready to answer a wide range of questions. This skill harnesses the power of cutting-edge AI technology to provide\nquick, accurate, and insightful responses on topics spanning from history and science to current events and pop culture.\n\nWith Lyra AI, users can effortlessly access a vast knowledge base through simple voice commands. The AI system behind\nLyra is continuously updated, ensuring that the information provided is current and reliable. Whether you\u0027re a curious\nlearner, a trivia enthusiast, or someone who loves to stay informed, Lyra AI serves as your personal fountain of\nknowledge.\n\nKey Features:\n• Extensive Knowledge Base: Covers a wide array of subjects\n• User-Friendly Interaction: Just ask Alexa, and Lyra AI responds\n• Up-to-Date Information: Regular AI system updates\n• Flexible Usage: Includes free queries with affordable options for more\n\nLyra AI is designed to cater to various interests and information needs. It can assist with quick fact-checking, provide\nin-depth explanations on complex topics, or offer engaging tidbits of information to satisfy your curiosity. The skill\u0027s\nAI-powered responses aim to be not just informative, but also insightful, potentially offering new perspectives on\nfamiliar subjects.\n\nUsers can start exploring Lyra AI\u0027s capabilities with the included free queries. For those who find themselves\nfrequently turning to Lyra for information, additional query options are available to extend the experience.\n\nUnlock the full potential of your Alexa device with Lyra AI your gateway to AI-powered knowledge at your fingertips.\n\nLyra AI is powered by perplexity.ai.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"{\\\"ask_dist_username\\\":\\\"\\\",\\\"ask_dist_password\\\":\\\"\\\"}\"}",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:508493201185:function:482e5ac4-31d5-43e7-850f-a4b66f2b2a5e:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:508493201185:function:482e5ac4-31d5-43e7-850f-a4b66f2b2a5e:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:508493201185:function:482e5ac4-31d5-43e7-850f-a4b66f2b2a5e:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:508493201185:function:482e5ac4-31d5-43e7-850f-a4b66f2b2a5e:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": true,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://regulad.github.io/lyra/tos",
+          "privacyPolicyUrl": "https://regulad.github.io/lyra/privacy"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}

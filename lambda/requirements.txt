@@ -1,0 +1,6 @@
+boto3==1.28.78
+ask-sdk-core==1.19.0
+ask-sdk-dynamodb-persistence-adapter==1.15.0
+openai==1.41.0
+python-dotenv==1.0.1
+sentry-sdk==2.13.0

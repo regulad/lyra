@@ -1,0 +1,279 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "QueryLimitIntent",
+          "samples": [
+            "how many queries do I have left",
+            "what\u0027s my query limit",
+            "check my remaining queries"
+          ]
+        },
+        {
+          "name": "BuyQueryPackIntent",
+          "samples": [
+            "buy queries",
+            "buy more queries",
+            "purchase query pack",
+            "get more questions",
+            "upgrade my plan"
+          ]
+        },
+        {
+          "name": "PurchaseFeedbackIntent",
+          "samples": [
+            "what did I buy",
+            "what\u0027s my current plan",
+            "what\u0027s my subscription",
+            "what\u0027s my current subscription",
+            "what\u0027s my current plan",
+            "what\u0027s my current package",
+            "what\u0027s my current query pack",
+            "what\u0027s my current query package"
+          ]
+        },
+        {
+          "name": "CancelSubscriptionIntent",
+          "samples": [
+            "cancel subscription",
+            "stop subscription",
+            "end my subscription",
+            "unsubscribe",
+            "cancel my plan",
+            "cancel my subscription"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "product",
+              "type": "ProductType"
+            }
+          ],
+          "name": "BuyProductIntent",
+          "samples": [
+            "buy {product}",
+            "purchase {product}",
+            "get {product}",
+            "order {product}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "QueryIntent",
+          "samples": [
+            "how do i {query}",
+            "how to {query}",
+            "to look up {query}",
+            "whats {query}",
+            "how old is {query}",
+            "what is the point of {query}",
+            "how old is {query}",
+            "are {query}",
+            "is {query}",
+            "why does {query}",
+            "how does {query}",
+            "why is {query}",
+            "what is {query}",
+            "ask {query}",
+            "tell me {query}",
+            "I want to know {query}",
+            "can you tell me {query}",
+            "what about {query}",
+            "how about {query}",
+            "yes {query}",
+            "okay {query}",
+            "sure {query}",
+            "I meant {query}",
+            "I\u0027m asking about {query}",
+            "let\u0027s try {query}",
+            "actually {query}",
+            "I\u0027m interested in {query}",
+            "could you explain {query}",
+            "tell me more about {query}",
+            "what do you know about {query}",
+            "how many {query}",
+            "when is {query}",
+            "where is {query}",
+            "who is {query}",
+            "why is {query}",
+            "which {query}",
+            "can you find {query}",
+            "look up {query}",
+            "search for {query}",
+            "find information on {query}",
+            "give me details about {query}",
+            "what\u0027s the answer to {query}",
+            "I need information on {query}",
+            "explain {query}",
+            "describe {query}",
+            "elaborate on {query}",
+            "provide details about {query}",
+            "tell me the facts about {query}",
+            "what can you tell me about {query}",
+            "I\u0027d like to learn about {query}",
+            "give me the lowdown on {query}",
+            "what\u0027s the deal with {query}",
+            "help me understand {query}",
+            "can you clarify {query}",
+            "what do you mean by {query}",
+            "how does {query} work",
+            "what\u0027s the history of {query}",
+            "tell me the definition of {query}",
+            "what are examples of {query}",
+            "how is {query} used",
+            "what\u0027s important about {query}",
+            "what\u0027s going on about {query}",
+            "what\u0027s the scoop on {query}",
+            "fill me in on {query}",
+            "what\u0027s new with {query}",
+            "give me the skinny on {query}",
+            "what\u0027s the latest on {query}",
+            "clue me in about {query}",
+            "break down {query} for me",
+            "spill the beans on {query}",
+            "what\u0027s the word on {query}",
+            "catch me up on {query}",
+            "what\u0027s the story with {query}",
+            "what\u0027s the situation with {query}",
+            "bring me up to speed on {query}",
+            "what\u0027s cooking with {query}",
+            "what\u0027s the buzz about {query}",
+            "dish out the details on {query}",
+            "what\u0027s the real deal with {query}",
+            "give me the inside scoop on {query}",
+            "what\u0027s the rundown on {query}",
+            "yo what\u0027s up with {query}",
+            "hey Lyra spill the tea on {query}",
+            "give me the deets on {query}",
+            "what\u0027s trending about {query}",
+            "what\u0027s everyone talking about {query}",
+            "break it down for me about {query}",
+            "what\u0027s the hot gossip on {query}",
+            "tell me the drama with {query}",
+            "what\u0027s popping with {query}",
+            "hit me with the facts about {query}",
+            "what\u0027s the tea on {query}",
+            "what\u0027s the internet saying about {query}",
+            "what\u0027s the vibe with {query}",
+            "what\u0027s the deal with all this {query} stuff",
+            "explain like I\u0027m five {query}",
+            "what\u0027s the hype about {query}",
+            "why is everyone freaking out about {query}",
+            "what\u0027s this {query} I keep hearing about",
+            "catch me up on the {query} drama",
+            "what\u0027s the {query} situation all about",
+            "tell me about this {query} thing",
+            "what\u0027s the fuss over {query}",
+            "why is {query} blowing up right now",
+            "what\u0027s the {query} controversy",
+            "give me the backstory on {query}",
+            "what\u0027s the {query} phenomenon",
+            "explain the {query} craze",
+            "what\u0027s this {query} trend all about",
+            "break down the {query} scandal",
+            "what\u0027s the deal with the whole {query} thing",
+            "tell me about the {query} movement",
+            "what\u0027s behind all this {query} talk"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "small",
+                  "small pack",
+                  "small package",
+                  "small queries",
+                  "small query pack",
+                  "small query package"
+                ],
+                "value": "Small Pack"
+              },
+              "id": "small_pack"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "medium",
+                  "medium pack",
+                  "medium package",
+                  "medium queries",
+                  "medium query pack",
+                  "medium query package"
+                ],
+                "value": "Medium Pack"
+              },
+              "id": "medium_pack"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "large",
+                  "large pack",
+                  "large package",
+                  "large queries",
+                  "large query pack",
+                  "large query package"
+                ],
+                "value": "Large Pack"
+              },
+              "id": "large_pack"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "unlimited",
+                  "unlimited pack",
+                  "unlimited package",
+                  "unlimited queries",
+                  "unlimited query pack",
+                  "unlimited query package",
+                  "unlimited subscription",
+                  "unlimited plan",
+                  "unlimited queries plan",
+                  "unlimited query pack plan",
+                  "unlimited query package plan",
+                  "subscription",
+                  "plan",
+                  "queries plan",
+                  "queries subscription",
+                  "query subscription",
+                  "queries subscription plan",
+                  "query subscription plan",
+                  "query pack plan",
+                  "query package plan"
+                ],
+                "value": "Unlimited Subscription"
+              },
+              "id": "unlimited_pack"
+            }
+          ],
+          "name": "ProductType"
+        }
+      ],
+      "invocationName": "lyra a. i."
+    }
+  }
+}
